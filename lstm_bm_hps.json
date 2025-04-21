@@ -1,0 +1,16 @@
+{
+    "lstm-units": 112,
+    "lstm-dropout": 0.2,
+    "num_layers": 1,
+    "units_1": 48,
+    "activation_1": "tanh",
+    "dropout_1": 0.30000000000000004,
+    "use_sec_lstm": false,
+    "use_dense_2": false,
+    "learning_rate": 0.01,
+    "dd-units": 16,
+    "dd-activation": "tanh",
+    "dd-dropout": 0.4,
+    "lstm2-units": 128,
+    "lstm2-dropout": 0.4
+}

@@ -1,0 +1,201 @@
+{
+    "16": [
+        {
+            "num_layers": 1,
+            "units_1": 112,
+            "activation_1": "relu",
+            "dropout_1": 0.30000000000000004,
+            "learning_rate": 0.01
+        },
+        {
+            "num_layers": 3,
+            "units_1": 96,
+            "activation_1": "tanh",
+            "dropout_1": 0.1,
+            "learning_rate": 0.01,
+            "units_2": 96,
+            "activation_2": "relu",
+            "dropout_2": 0.2,
+            "units_3": 16,
+            "activation_3": "relu",
+            "dropout_3": 0.1
+        },
+        {
+            "num_layers": 1,
+            "units_1": 64,
+            "activation_1": "relu",
+            "dropout_1": 0.4,
+            "learning_rate": 0.01
+        },
+        {
+            "num_layers": 1,
+            "units_1": 16,
+            "activation_1": "tanh",
+            "dropout_1": 0.4,
+            "learning_rate": 0.01
+        },
+        {
+            "num_layers": 2,
+            "units_1": 64,
+            "activation_1": "tanh",
+            "dropout_1": 0.1,
+            "learning_rate": 0.01,
+            "units_2": 80,
+            "activation_2": "tanh",
+            "dropout_2": 0.30000000000000004
+        }
+    ],
+    "32": [
+        {
+            "num_layers": 1,
+            "units_1": 32,
+            "activation_1": "tanh",
+            "dropout_1": 0.30000000000000004,
+            "learning_rate": 0.01
+        },
+        {
+            "num_layers": 3,
+            "units_1": 32,
+            "activation_1": "relu",
+            "dropout_1": 0.2,
+            "learning_rate": 0.01,
+            "units_2": 32,
+            "activation_2": "relu",
+            "dropout_2": 0.30000000000000004,
+            "units_3": 16,
+            "activation_3": "relu",
+            "dropout_3": 0.2
+        },
+        {
+            "num_layers": 2,
+            "units_1": 48,
+            "activation_1": "tanh",
+            "dropout_1": 0.30000000000000004,
+            "learning_rate": 0.001,
+            "units_2": 16,
+            "activation_2": "relu",
+            "dropout_2": 0.1
+        },
+        {
+            "num_layers": 2,
+            "units_1": 112,
+            "activation_1": "relu",
+            "dropout_1": 0.4,
+            "learning_rate": 0.001,
+            "units_2": 64,
+            "activation_2": "relu",
+            "dropout_2": 0.4
+        },
+        {
+            "num_layers": 1,
+            "units_1": 128,
+            "activation_1": "relu",
+            "dropout_1": 0.4,
+            "learning_rate": 0.01
+        }
+    ],
+    "64": [
+        {
+            "num_layers": 1,
+            "units_1": 48,
+            "activation_1": "relu",
+            "dropout_1": 0.2,
+            "learning_rate": 0.01
+        },
+        {
+            "num_layers": 1,
+            "units_1": 96,
+            "activation_1": "tanh",
+            "dropout_1": 0.4,
+            "learning_rate": 0.01
+        },
+        {
+            "num_layers": 2,
+            "units_1": 80,
+            "activation_1": "relu",
+            "dropout_1": 0.2,
+            "learning_rate": 0.01,
+            "units_2": 48,
+            "activation_2": "relu",
+            "dropout_2": 0.30000000000000004
+        },
+        {
+            "num_layers": 2,
+            "units_1": 16,
+            "activation_1": "tanh",
+            "dropout_1": 0.1,
+            "learning_rate": 0.01,
+            "units_2": 16,
+            "activation_2": "tanh",
+            "dropout_2": 0.2
+        },
+        {
+            "num_layers": 3,
+            "units_1": 112,
+            "activation_1": "relu",
+            "dropout_1": 0.4,
+            "learning_rate": 0.001,
+            "units_2": 112,
+            "activation_2": "tanh",
+            "dropout_2": 0.1,
+            "units_3": 112,
+            "activation_3": "relu",
+            "dropout_3": 0.5
+        }
+    ],
+    "128": [
+        {
+            "num_layers": 1,
+            "units_1": 96,
+            "activation_1": "relu",
+            "dropout_1": 0.5,
+            "learning_rate": 0.01
+        },
+        {
+            "num_layers": 2,
+            "units_1": 112,
+            "activation_1": "relu",
+            "dropout_1": 0.1,
+            "learning_rate": 0.01,
+            "units_2": 16,
+            "activation_2": "relu",
+            "dropout_2": 0.4
+        },
+        {
+            "num_layers": 3,
+            "units_1": 32,
+            "activation_1": "tanh",
+            "dropout_1": 0.5,
+            "learning_rate": 0.001,
+            "units_2": 64,
+            "activation_2": "relu",
+            "dropout_2": 0.4,
+            "units_3": 112,
+            "activation_3": "relu",
+            "dropout_3": 0.1
+        },
+        {
+            "num_layers": 2,
+            "units_1": 48,
+            "activation_1": "tanh",
+            "dropout_1": 0.30000000000000004,
+            "learning_rate": 0.01,
+            "units_2": 128,
+            "activation_2": "tanh",
+            "dropout_2": 0.5
+        },
+        {
+            "num_layers": 3,
+            "units_1": 112,
+            "activation_1": "tanh",
+            "dropout_1": 0.30000000000000004,
+            "learning_rate": 0.01,
+            "units_2": 64,
+            "activation_2": "relu",
+            "dropout_2": 0.2,
+            "units_3": 64,
+            "activation_3": "relu",
+            "dropout_3": 0.30000000000000004
+        }
+    ]
+}

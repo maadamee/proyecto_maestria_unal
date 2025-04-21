@@ -1,0 +1,13 @@
+{
+    "num_layers": 3,
+    "units_1": 48,
+    "activation_1": "relu",
+    "dropout_1": 0.30000000000000004,
+    "units_2": 112,
+    "activation_2": "relu",
+    "dropout_2": 0.1,
+    "learning_rate": 0.01,
+    "units_3": 48,
+    "activation_3": "tanh",
+    "dropout_3": 0.2
+}
